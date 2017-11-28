@@ -1,0 +1,11 @@
+{
+  "generator-openapi-repo": {
+    "importExistingSpec": true,
+    "importedSpec": "redoc/swag.yaml",
+    "name": "Test",
+    "repo": "agrublev/DocTesting",
+    "splitSpec": false,
+    "samples": true,
+    "installSwaggerUI": true
+  }
+}
