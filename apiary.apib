@@ -3,33 +3,44 @@ HOST: http://polls.apiblueprint.org/
 
 # Freedcamp
 
-Polls is a simple API allowing consumers to view polls and vote in them.
+Freedcamp
 
-## Questions Collection [/questions]
+## Sessions Collection [/sessions]
 
-### List All Questions [GET]
+### Sessions [GET]
 
 + Response 200 (application/json)
 
         [
             {
-                "question": "Favourite programming language?",
-                "published_at": "2015-08-05T08:40:51.620Z",
-                "choices": [
-                    {
-                        "choice": "Swift",
-                        "votes": 2048
-                    }, {
-                        "choice": "Python",
-                        "votes": 1024
-                    }, {
-                        "choice": "Objective-C",
-                        "votes": 512
-                    }, {
-                        "choice": "Ruby",
-                        "votes": 256
-                    }
-                ]
+                "projects": [
+      {
+        "project_id": "914936",
+        "role_name": "User",
+        "role_type": "0",
+        "project_name": "sdcscsdcscsdc",
+        "project_description": "sdcsdcsdcsdcsdc",
+        "project_color": "A86D54",
+        "f_active": true,
+        "f_can_delete": false,
+        "f_can_manage": false,
+        "f_can_leave": true,
+        "notifications_count": 0,
+        "users": [
+          132942,
+          309953,
+          340312,
+          377037,
+          377039,
+          377040
+        ],
+        "applications": [
+                  6
+            ]
+        },
+      "groups": [....],
+      ...
+   ]
             }
         ]
 
